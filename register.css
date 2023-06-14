@@ -1,11 +1,12 @@
 
 body{
-    background: url("./image/backtoy1.jpg"); 
+    background: url(""); 
     background-size:cover;
 
 }
 
 #wrapper{
+    background: url("./image/backtoy1.jpg");
     min-height: 100vh;
     display: flex;
     justify-content: center;

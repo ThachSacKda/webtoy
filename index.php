@@ -51,7 +51,7 @@ require_once 'header.php';
         ?>
                 <div class="col-md-4 pb-3">
                     <div class="card">
-                        <img src="./image/<?= $row['pimage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; height: 360px;" />
+                        <img src="image/<?= $row['pimage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; height: 360px;" />
                         <div class="card-body">
                             <a href="detail.php?id=<?= $row['pid'] ?>" class="text-decoration-none">
                                 <h5 class="card-title">

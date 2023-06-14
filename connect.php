@@ -1,16 +1,15 @@
 <?php
-class connect{
-    
+class Connect{
     public $sever;
     public $user;
     public $password;
     public $dbname;
     public function __construct()
     {
-        $this->server = "localhost";
-        $this->user = "root";
-        $this->password = "";
-        $this->dbName = "asm_copy";
+        $this->server = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $this->user = "upflu7ma9tlbzx4g";
+        $this->password = "oprtcpergxssv3qf";
+        $this->dbName = "yfi48mjpzag57198";
     }
 
     //Option 1: mysqli

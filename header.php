@@ -61,7 +61,7 @@ include_once 'connect.php';
     <nav class="navbar navbar-expand-md navbar-dark 
     bg-dark">
         <div class="container-fluid">
-            <a href="homepage.php" class="navbar-brand">Home </a>
+            <a href="index.php" class="navbar-brand">Home </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -76,7 +76,7 @@ include_once 'connect.php';
         </div>
         <div class="collapse navbar-collapse" id="navbarMain">
             <div class="navbar-nav">
-                <a href="homepage.php" class="nav-link active">Home</a>
+                <a href="index.php" class="nav-link active">Home</a>
                 <a href="cart.php" class="nav-link">Cart</a>
                 <div class="dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">

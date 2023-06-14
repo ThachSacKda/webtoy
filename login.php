@@ -16,7 +16,7 @@ if (isset($_POST['btnLogin'])) {
              echo "Login successfully";
              $_SESSION['user_name'] = $row['uname'];
              $_SESSION['user_id'] = $row['uid'];
-             header("Location: homepage.php");
+             header("Location: index.php");
          } else {
              echo "Something wrong with your info<br>";
          }

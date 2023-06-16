@@ -28,7 +28,7 @@ class Connect{
     function connecToPDO(): PDO{
         try{
             $conn_pdo = new PDO
-            ("mysql:host=$this->sever;
+            ("mysql:eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com=$this->sever;
             dbname=$this->dbName", $this->user,
             $this->password);
            // echo "Connect from PDO";

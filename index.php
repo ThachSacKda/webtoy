@@ -21,7 +21,7 @@ require_once 'header.php';
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../webtoy/image/banner3.jpg" class="d-block w-100" alt="..." width="500px" height="600px">
+                <img src="./image/banner3.jpg" class="d-block w-100" alt="..." width="500px" height="600px">
             </div>
         </div>
     </div>

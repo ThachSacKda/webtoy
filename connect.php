@@ -1,9 +1,9 @@
 <?php
 class Connect{
-    public $sever;
+    public $server;
     public $user;
     public $password;
-    public $dbname;
+    public $dbName;
     public function __construct()
     {
         $this->server = "eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
@@ -14,7 +14,7 @@ class Connect{
 
     //Option 1: mysqli
     function connectToMySQL():mysqli{
-        $conn_my = new mysqli($this->sever, $this->user,$this->password,
+        $conn_my = new mysqli($this->server, $this->user,$this->password,
         $this->dbName);
         if($conn_my->connect_error){
             die("Failed".
@@ -28,7 +28,7 @@ class Connect{
     function connecToPDO(): PDO{
         try{
             $conn_pdo = new PDO
-            ("mysql:host=$this->sever;
+            ("mysql:host=$this->server;
             dbname=$this->dbName", $this->user,
             $this->password);
            // echo "Connect from PDO";

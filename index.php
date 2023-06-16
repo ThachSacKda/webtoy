@@ -10,11 +10,11 @@ require_once 'header.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Home-MyKingDom</title>
+    <title>Home-ATN</title>
 </head>
 
 
-<h1 class=" d-flex justify-content-center align-items-center">My Kingdom</h1>
+<h1 class=" d-flex justify-content-center align-items-center">ATN</h1>
 
 
 <banner>

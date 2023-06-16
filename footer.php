@@ -15,12 +15,12 @@
             <nav>
                 <div class="footer row">
                     <div class="company col-sm-4 col-form-div">
-                        <h2>About My King Dom</h2>
-                        <p>MyKingDom is a chain of stores that supply all kinds of toy products for children nationwide.</p>
+                        <h2>About ATN</h2>
+                        <p>ATN is a chain of stores that supply all kinds of toy products for children nationwide.</p>
                             <ul class="social-icon">
-                            <li><span><i class="bi bi-facebook"> MyKingDom</i></span></li>
-                            <li><span><i class="bi bi-envelope-fill"> MyKingDom</i></span></li>
-                            <li><span><i class="bi bi-twitter"></i></span> MyKingDom</li>
+                            <li><span><i class="bi bi-facebook"> ATN</i></span></li>
+                            <li><span><i class="bi bi-envelope-fill"> ATN</i></span></li>
+                            <li><span><i class="bi bi-twitter"></i></span> ATN</li>
                             </ul>
                             &copy; <p class="copy">2018-2022 by SKD company-All rights reserved. SIAE LICENCE # 2294/I/1936 and 5647/I/1936</p>
                         </div>
@@ -53,7 +53,7 @@
                                 </li>
                                 <li>
                                     <span><i class="fa fa-envelope"></i></span>
-                                    <p><a> Email: mykingdom333@gmail.com</a></p>
+                                    <p><a> Email: ATN333@gmail.com</a></p>
                                 </li>
                             </ul>
                     </div>

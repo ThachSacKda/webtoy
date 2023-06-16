@@ -7,7 +7,7 @@ class Connect{
     public function __construct()
     {
         $this->server = "eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $this->user = "	x03z7t4lr0thrncm";
+        $this->user = "x03z7t4lr0thrncm";
         $this->password = "hh5iic9mvkduw3qk";
         $this->dbName = "xom7x30uscfku1cm";
     }
@@ -28,7 +28,7 @@ class Connect{
     function connecToPDO(): PDO{
         try{
             $conn_pdo = new PDO
-            ("mysql:eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com=$this->sever;
+            ("mysql:host=$this->sever;
             dbname=$this->dbName", $this->user,
             $this->password);
            // echo "Connect from PDO";

@@ -11,30 +11,29 @@ if (isset($_GET['del_id'])) :
     $stmt = $db_link->prepare($sql);
     $execute = $stmt->execute(array($value));
     if ($execute) {
-    //    echo "Successfully deleted";
+        //    echo "Successfully deleted";
     } else {
         echo "Failed" . $execute;
     }
 endif;
 ?>
 <style>
-    h1{
+    h1 {
         font-size: 50px;
         color: red;
         text-align: center;
     }
-    th{
-        color:brown;
+
+    th {
+        color: brown;
         text-align: center;
     }
-    
-
 </style>
 
 <body>
     <div id="main" class="container">
         <h1>Product Category</h1>
-        
+
         <form name="frm" method="post" action="">
             <table id="tablecategory" class="table table-striped table-bordered" cellspacing="0" width="100%">
                 <thead>
@@ -56,7 +55,7 @@ endif;
                         <tr>
                             <div class="table table-bordered category-list">
                                 <form method="post" action="update.php">
-                                    <th><input class="form-control" type="text" value="<?= $row['pcat_id'] ?>" name="cat_id"/></th>
+                                    <th><input class="form-control" type="text" value="<?= $row['pcat_id'] ?>" name="cat_id" /></th>
                                     <input type="hidden" name="cat_id" value="<?= $row['pcat_id'] ?>" />
                                     <th><input class="form-control" type="text" value="<?= $row['catName'] ?>" name="cat_Name" /></th>
                                     <th><button type="submit" name="update_cat" value=<?= $row['pcat_id'] ?>" class="text-muted text-decoration-non">Update</button></th>

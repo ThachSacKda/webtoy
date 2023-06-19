@@ -27,4 +27,3 @@
         echo '<script>alert("Tag has exist!")</script>';
         header ("location: show.php");
     }
-?>

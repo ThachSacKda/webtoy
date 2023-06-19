@@ -4,7 +4,7 @@ include_once 'header.php';
 ?>
 <?php
 
-$total=0;
+$total = 0;
 $c = new connect();
 $dblink = $c->connecToPDO();
 if (isset($_SESSION['user_id'])) {
@@ -74,6 +74,6 @@ if (isset($_SESSION['user_id'])) {
         </tr>
     </table>
     <hr class="pt-5">
-    <h5 class="fw mb-0 text-black">Total: <?=$total?></h5>
-    <h5 class="fw-bold mb-0 p-5 ps-0 "><a href="homepage.php" class="text-body border border-dark p-1 bg-primary">Back to Home</a></h5>
+    <h5 class="fw mb-0 text-black">Total: <?= $total ?></h5>
+    <h5 class="fw-bold mb-0 p-5 ps-0 "><a href="index.php" class="text-body border border-dark p-1 bg-primary">Back to Home</a></h5>
 </div>

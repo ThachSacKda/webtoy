@@ -87,21 +87,21 @@ include_once 'connect.php';
                         <a class="dropdown-item" href="show.php">Category</a>
                     </div>
                 </div>
-                <a href="./sortproduct.php"class="nav-link active">Category</a>
+                <a href="./sortproduct.php" class="nav-link active">Category</a>
                 <?php
-            if (isset($_SESSION['user_name'])) :
-                // if(isset($_COOKIE['user_name'])):
-            ?>
-                <a href="#" class="nav-item nav-link">Wellcome,<?=$_SESSION['user_name'] ?></a>
-                <a href="logout.php" class="nav-item nav-link">Logout</a>
-            <?php
-            else :
-            ?>
-                <a href="#" class="nav-item nav-link" onclick="document.location='login.php'">Login</a>
-                <a href="#" class="nav-item nav-link" onclick="document.location='register.php'">Register</a>
-            <?php
-            endif;
-            ?>
+                if (isset($_SESSION['user_name'])) :
+                    // if(isset($_COOKIE['user_name'])):
+                ?>
+                    <a href="#" class="nav-item nav-link">Wellcome,<?= $_SESSION['user_name'] ?></a>
+                    <a href="logout.php" class="nav-item nav-link">Logout</a>
+                <?php
+                else :
+                ?>
+                    <a href="#" class="nav-item nav-link" onclick="document.location='login.php'">Login</a>
+                    <a href="#" class="nav-item nav-link" onclick="document.location='register.php'">Register</a>
+                <?php
+                endif;
+                ?>
             </div>
 
         </div>

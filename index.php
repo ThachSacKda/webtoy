@@ -14,7 +14,7 @@ require_once 'header.php';
 </head>
 
 
-<h1 class=" d-flex justify-content-center align-items-center">ATN</h1>
+<h1 class=" d-flex justify-content-center align-items-center">ATN SHOP</h1>
 
 
 <banner>
@@ -34,7 +34,8 @@ require_once 'header.php';
         .main-header {
             text-align: center;
         }
-        .h1{
+
+        .h1 {
             color: red;
         }
     </style>
